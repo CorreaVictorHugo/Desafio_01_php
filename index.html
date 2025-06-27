@@ -1,0 +1,23 @@
+<!--Mostrar o número digitado pelo usuário e com seu antecessor e sucessor.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 01</title>
+</head>
+<body>
+    <h1>DESAFIO 01</h1>
+<!-- criando formulário para a entrada do número-->
+    <form action="resultado.php" method="get"> 
+    <!-- cria um formulário que envia os dados via GET para um arquivo chamado resultado.php -->
+        <label for="numero">DIGITE UM NÚMERO</label>
+        <input type="number" name="numero" id="idnumero" required>
+    <!-- campo para o usuário inserir um número (required, obriga o usuário a preencher o campo)-->
+        <input type="submit" value="ENVIAR">
+    </form>
+
+</body>
+</html>
